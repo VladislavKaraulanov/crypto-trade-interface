@@ -1,0 +1,106 @@
+.history-bThdE {
+    color: #8c90a5;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 0 12px 12px;
+}
+
+.history__title-bThdE {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.history__names-bThdE {
+    display: flex;
+    align-items: center;
+    padding-right: 18px;
+}
+
+.history__names-item-bThdE {
+    font-weight: 500;
+    font-size: 11px;
+    color: #8c90a5;
+    height: 18px;
+    line-height: 18px;
+}
+
+.history__names-price-bThdE {
+    width: 39%;
+}
+
+.history__names-amount-bThdE {
+    width: 31%;
+}
+
+.history__names-date-bThdE {
+    width: 30%;
+    text-align: right;
+}
+
+.history__items-bThdE {
+    margin-top: 3px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 240px;
+}
+
+.history__item-bThdE {
+    display: flex;
+}
+
+.history__item-price-bThdE {
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.history__item-price-bThdE.history__item-buy-bThdE {
+    color: #6b6;
+}
+
+.history__item-price-bThdE.history__item-sell-bThdE {
+    color: #ff6c6c;
+}
+
+.history__item-amount-bThdE,
+.history__item-date-bThdE {
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.history__item-price-bThdE {
+    width: 37%;
+}
+
+.history__item-amount-bThdE {
+    width: 33%;
+}
+
+.history__item-date-bThdE {
+    width: 30%;
+    text-align: right;
+    padding-right: 16px;
+}
+
+@media (max-width: 1290px) {
+    .history__items-bThdE {
+        height: 333px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .history__item-price-bThdE{
+        width: 39%;
+    }
+}
+
+@media (max-width: 940px){
+    .history__items-bThdE {
+        height: 245px;
+    }
+}

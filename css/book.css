@@ -1,0 +1,194 @@
+.left-ghTgp.order {
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-ghTgp .order__title {
+    color: #FFFFFF;
+    padding: 12px 0 12px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.left-ghTgp .order__wrapper {
+    height: 96%;
+    padding-bottom: 21px;
+}
+
+.left-ghTgp .order__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.left-ghTgp .order__sell {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1 1 0;
+    justify-content: flex-end;
+}
+
+.left-ghTgp .order__buy {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 1 1 0;
+    justify-content: flex-start;
+}
+
+.left-ghTgp .order__names {
+    display: flex;
+    align-items: center;
+    padding: 0 12px 0 12px;
+    margin-bottom: 5px;
+}
+
+.left-ghTgp .order__names-name {
+    font-weight: 500;
+    font-size: 11px;
+    color: #8c90a5;
+}
+
+.left-ghTgp .order__items {
+    padding: 0 8px;
+    max-height: 456px;
+    overflow: hidden;
+}
+
+.left-ghTgp .order__item-price {
+    padding-left: 5px;
+}
+
+.left-ghTgp .order__item-total {
+    padding-right: 5px;
+}
+
+.left-ghTgp .order__names-price,
+.left-ghTgp .order__item-price {
+    width: 39%;
+    text-align: left;
+}
+
+.left-ghTgp .order__names-amount,
+.left-ghTgp .order__item-amount {
+    width: 30%;
+    text-align: left;
+}
+
+.left-ghTgp .order__names-total,
+.left-ghTgp .order__item-total {
+    width: 31%;
+    text-align: right;
+}
+
+.left-ghTgp .order__item {
+    display: flex;
+    position: relative;
+}
+
+.left-ghTgp .order__item-fill {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+}
+
+.left-ghTgp .order__items.order__items-sell .order__item .order__item-price {
+    color: #ff6c6c;
+}
+
+.left-ghTgp .order__items.order__items-sell .order__item .order__item-fill {
+    background-color: #ff6c6c;
+    opacity: 0.16;
+}
+
+.left-ghTgp .order__items.order__items-buy .order__item .order__item-price {
+    color: #6b6;
+}
+
+.left-ghTgp .order__items.order__items-buy .order__item .order__item-fill {
+    background-color: #6b6;
+    opacity: 0.16;
+}
+
+.left-ghTgp .order__item-price,
+.left-ghTgp .order__item-amount,
+.left-ghTgp .order__item-total {
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap;
+    height: 24px;
+    color: #FFFFFF;
+}
+
+.left-ghTgp .order__info {
+    padding: 0 7px;
+}
+
+.left-ghTgp .order__info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 6px;
+    margin: 5px 0;
+    background: #0e101a;
+    border-radius: 5px;
+}
+
+.left-ghTgp .order__info-price {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.left-ghTgp .order__info-price-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.left-ghTgp .order__info-price.order__info-price-plus .order__info-price-icon {
+    transform: rotate(180deg);
+}
+
+.left-ghTgp .order__info-price.order__info-price-plus {
+    color: #6b6;
+}
+
+.left-ghTgp .order__info-price.order__info-price-minus {
+    color: #ff6c6c;
+}
+
+.left-ghTgp .order__info-usd {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #8c90a5;
+    margin-top: 1px;
+}
+
+.left-ghTgp .order__info-vol {
+    text-align: right;
+}
+
+.left-ghTgp .order__info-vol,
+.left-ghTgp .order__info-volUsd {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 3px 0;
+}
+
+.left-ghTgp .order__info-vol span,
+.left-ghTgp .order__info-volUsd span {
+    color: #8c90a5;
+}
+
+.left-ghTgp .order__info-volUsd {
+    border-top: 1px solid #464859;
+}

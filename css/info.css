@@ -1,0 +1,85 @@
+.top-ghTgp.info {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.top-ghTgp .info__pair {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    padding-left: 18px;
+    padding-right: 46px;
+}
+
+.top-ghTgp .info__price,
+.top-ghTgp .info__change,
+.top-ghTgp .info__minmax {
+    border-right: 1px solid #424455;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.top-ghTgp .info__price {
+    padding-left: 0;
+}
+
+.top-ghTgp .info__low {
+    padding-left: 24px;
+}
+
+.top-ghTgp .info__volume {
+    padding-left: 25px;
+}
+
+.top-ghTgp .info__price-container,
+.top-ghTgp .info__volume-container,
+.top-ghTgp .info__minmax {
+    display: flex;
+    align-items: center;
+}
+
+.top-ghTgp .info__price-title,
+.top-ghTgp .info__change-title,
+.top-ghTgp .info__high-title,
+.top-ghTgp .info__low-title,
+.top-ghTgp .info__volume-title {
+    font-weight: 500;
+    font-size: 11px;
+    color: #8c90a5;
+    white-space: nowrap;
+}
+
+.top-ghTgp .info__price-currency,
+.top-ghTgp .info__change-value,
+.top-ghTgp .info__high-value,
+.top-ghTgp .info__low-value,
+.top-ghTgp .info__volume-currency {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.top-ghTgp .info__price-usd,
+.top-ghTgp .info__volume-usd {
+    padding-left: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 2px;
+}
+
+.top-ghTgp .info__price-currency.info__price-minus,
+.top-ghTgp .info__change-value.info__change-minus {
+    color: #ff6c6c;
+}
+
+.top-ghTgp .info__price-currency.info__price-plus,
+.top-ghTgp .info__change-value.info__change-plus{
+    color: #6b6;
+}
+
+@media (max-width: 830px) {
+    .top-ghTgp.info::-webkit-scrollbar{
+        height: 2px;
+    }
+}

@@ -1,0 +1,100 @@
+.right-bottom-ghTgp.chat {
+    font-family: 'Poppins', sans-serif;
+}
+
+.right-bottom-ghTgp .chat__title {
+    padding: 12px 18px 12px 12px;
+    background-color: #1c2030;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.right-bottom-ghTgp .chat__messages {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 220px;
+}
+
+.right-bottom-ghTgp .chat__message-author {
+    display: inline-block;
+    color: #4fbf60;
+    font-size: 11px;
+}
+
+.right-bottom-ghTgp .chat__message-text {
+    padding: 10px 18px 10px 12px;
+    border-bottom: 1px solid #2a2e39;
+    color: #c5cbce;
+    font-size: 11px;
+    transition: background-color .3s ease-in-out;
+}
+
+.right-bottom-ghTgp .chat__send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px 0 12px;
+}
+
+.right-bottom-ghTgp .chat__send-input {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1a0a7;
+    background-color: #000;
+    margin-right: 5px;
+}
+
+.right-bottom-ghTgp .chat__send-input::placeholder {
+    font-size: 14px;
+}
+
+.right-bottom-ghTgp .chat__send-button {
+    background: #007bff;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #007bff;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 1290px) {
+    .right-bottom-ghTgp .chat__messages {
+        height: 305px;
+    }
+
+    .right-bottom-ghTgp .chat__send-input {
+        width: 60%;
+    }
+
+    .right-bottom-ghTgp .chat__send-button {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .right-bottom-ghTgp .chat__send-input {
+        width: 80%;
+    }
+
+    .right-bottom-ghTgp .chat__send-button {
+        width: 200px;
+    }
+}
+
+@media (max-width: 940px) {
+    .right-bottom-ghTgp .chat__messages {
+        height: 210px;
+    }
+}

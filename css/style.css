@@ -1,0 +1,165 @@
+/*global start*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+.trade__container-ghTgp {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.trade__box-ghTgp {
+    display: grid;
+    grid-template-columns: 338px 1fr 338px;
+    /*grid-template-rows: 50px ;*/
+    grid-gap: 10px;
+    grid-template-areas: "top-ghTgp top-ghTgp top-ghTgp"
+                       "left-ghTgp center-top-ghTgp right-top-ghTgp"
+                       "left-ghTgp center-bottom-ghTgp right-center-ghTgp"
+                       "left-ghTgp center-bottom-ghTgp right-bottom-ghTgp"
+}
+
+.top-ghTgp,
+.left-ghTgp,
+.center-center-ghTgp,
+.center-top-ghTgp,
+    /*.center-bottom-ghTgp,*/
+.right-top-ghTgp,
+.right-center-ghTgp,
+.right-bottom-ghTgp {
+    background-color: #131722;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.top-ghTgp {
+    width: 100%;
+    height: 56px;
+    grid-area: top-ghTgp;
+}
+
+.left-ghTgp {
+    height: 1048px;
+    grid-area: left-ghTgp;
+}
+
+.center-top-ghTgp {
+    height: 400px;
+    grid-area: center-top-ghTgp;
+}
+
+.center-center-ghTgp {
+    height: 427px;
+    grid-area: center-center-ghTgp;
+}
+
+.center-bottom-ghTgp {
+    height: 638px;
+    grid-area: center-bottom-ghTgp;
+}
+
+.right-top-ghTgp {
+    height: 400px;
+    grid-area: right-top-ghTgp;
+}
+
+.right-center-ghTgp {
+    height: 314px;
+    grid-area: right-center-ghTgp;
+}
+
+.right-bottom-ghTgp {
+    height: 314px;
+    grid-area: right-bottom-ghTgp;
+}
+
+@media (max-width: 1290px) {
+    .trade__box-ghTgp {
+        grid-template-areas: "top-ghTgp top-ghTgp top-ghTgp"
+                       "left-ghTgp center-top-ghTgp center-top-ghTgp"
+                       "left-ghTgp center-bottom-ghTgp center-bottom-ghTgp"
+                       "left-ghTgp center-bottom-ghTgp center-bottom-ghTgp"
+                       "right-top-ghTgp right-bottom-ghTgp right-center-ghTgp"
+    }
+
+    .right-bottom-ghTgp,
+    .right-center-ghTgp {
+        height: 400px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .trade__box-ghTgp {
+        grid-template-areas: "top-ghTgp top-ghTgp top-ghTgp"
+                       "left-ghTgp center-top-ghTgp center-top-ghTgp"
+                       "left-ghTgp center-bottom-ghTgp center-bottom-ghTgp"
+                       "left-ghTgp center-bottom-ghTgp center-bottom-ghTgp"
+                       "right-top-ghTgp right-center-ghTgp right-center-ghTgp"
+                       "right-bottom-ghTgp right-bottom-ghTgp right-bottom-ghTgp"
+    }
+}
+
+@media (max-width: 940px) {
+    .right-center-ghTgp {
+        height: 302px;
+    }
+
+    .right-bottom-ghTgp, .right-center-ghTgp {
+        height: 314px;
+    }
+
+    .trade__box-ghTgp {
+        grid-template-areas: "top-ghTgp top-ghTgp top-ghTgp"
+                       "center-top-ghTgp center-top-ghTgp center-top-ghTgp"
+                       "center-bottom-ghTgp center-bottom-ghTgp center-bottom-ghTgp"
+                       "center-bottom-ghTgp center-bottom-ghTgp center-bottom-ghTgp"
+                       "left-ghTgp right-top-ghTgp right-top-ghTgp"
+                       "left-ghTgp right-center-ghTgp right-center-ghTgp"
+                       "left-ghTgp right-bottom-ghTgp right-bottom-ghTgp"
+    }
+}
+
+@media (max-width: 830px) {
+    .top-ghTgp {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}
+
+@media (max-width: 720px) {
+    .trade__box-ghTgp {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "top-ghTgp top-ghTgp"
+                       "center-top-ghTgp center-top-ghTgp"
+                       "center-bottom-ghTgp center-bottom-ghTgp"
+                       "left-ghTgp left-ghTgp"
+                       "left-ghTgp left-ghTgp"
+                       "left-ghTgp left-ghTgp"
+                       "right-top-ghTgp right-top-ghTgp "
+                       "right-center-ghTgp right-center-ghTgp"
+                       "right-bottom-ghTgp right-bottom-ghTgp"
+    }
+}
+
+@media (max-width: 600px) {
+    .center-bottom-ghTgp {
+        height: auto;
+    }
+}
+
+/*global end*/
